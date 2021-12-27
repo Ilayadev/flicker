@@ -1,0 +1,780 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding: 0;
+	margin:0;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.container{
+ width: 80%;
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+}
+.main1{	
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+.main1>img{
+	flex-grow:1;
+	margin :2px;	
+	height: 185px;
+	object-fit:cover;
+
+}
+
+body{
+	background-color:rgb(243,245,246);
+	width:auto;
+	}
+.zoho{
+	background-color: white;
+	position: fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+  z-index: 1;
+}
+.header1{
+	padding-right: 42px;
+  padding-left: 118px;
+    background-color: rgb(32,32,34);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    align-items: center;
+}
+.fda{
+   width:130px;
+  height:40px;
+  position: relative;
+}
+.link{
+  display: flex;
+  width:222px;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  justify-content:flex-start;
+  width:200px;
+  flex-grow: 1;
+}
+.header2{
+	width: 80%;
+	border-bottom: 1px solid rgb(220,220,220);
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+	z-index: -5 !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+	}
+.header3{
+	width: 100%;
+    border-bottom: 1px solid rgb(220,220,220);
+    height: 50px;   
+    z-index: -3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headin{
+  width: 81%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.header2>div{       
+      
+      margin-right: 30px;
+      padding: 10px 5px 10px 5px;
+      align-items: end;
+      font-size: 17px;
+      color:rgb(102,102,102);
+      z-index: 0;
+      font-size: 14px;
+
+  }
+  .mai{
+  	width: 80% !important;
+    border-bottom: 1px solid rgb(220,220,220);
+    height: 50px;
+    z-index: -2;
+    display: none;
+    margin: auto !important;
+  }
+  
+  .p2:hover{
+  	border-bottom: 2px solid rgb(0,145,220);
+  	color: black;
+  	cursor: pointer;
+  }
+  .p1{
+  	border-bottom: 2px solid rgb(0,145,220);
+  	color: black !important;
+  }
+  .thline{
+  	    position: absolute;
+        top: 9px;
+	    left: 26px;
+	    font-size: 34px;
+	    color: white;
+	    display: none;
+  }
+
+  .dot{
+  	position: absolute;
+    width: 29px;
+    height:12px;
+     left: 6px;
+     top:16px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -46px;
+    background-position-y: -30px;
+    background-size: 169px,81px;
+    background-repeat: no-repeat;
+  }
+  .flip{
+  	position: absolute;
+    width: 155px;
+    height: 32px;
+   left:-27px;
+   top:3px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: 62px;
+    background-position-y: -139px;
+    background-size: 336px,81px;
+    background-repeat: no-repeat;
+  }
+  .h1{ 	
+  	 padding-left: 13px;
+  	 	color:white;
+      position: relative;
+
+}
+.srh{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-radius: 3px;
+	height:39px !important;
+	
+}
+.arr{
+    width: 31px;
+    height: 22px;
+    top: 11px;
+    left: 41px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -416px;
+    background-position-y: -452px;
+    background-size: 563px,81px;
+    background-repeat: no-repeat;
+  }  
+  .button{
+  	background-color:rgb(17,143,220) ;
+   width:90px;
+   height:30px;
+   border-radius: 5px;
+   padding-top: 0px;
+   font-size:15px;
+   text-align: center;
+   color: white;
+   border:1px solid rgb(17,143,220);
+  }
+  .sicon{  	
+    width: 30px;
+    height: 29px;
+    border: 1px solid white;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -430px;
+    background-position-y: -263px;
+    background-size: 762px,81px;
+    background-repeat: no-repeat   
+  }
+  .wsicon{
+       width: 24px;
+    height: 20px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -475px;
+    background-position-y: -309px;
+    background-size: 563px,81px;
+    background-repeat: no-repeat;
+    display: none;
+  }
+  .jawa{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+   width:285px !important;
+ }
+  .colors{
+  	  	width:370px;
+  	height:35px;
+   	display: flex;
+  	justify-content: space-between;
+  	padding-top: 6px;
+  }
+.colors>span{
+	position: relative;
+  	width: 21px;
+  	height:21px;
+  	border-radius: 3px;
+  	padding-top: 10px;
+  	
+  }.f1{
+  	background-color: rgb(250,64,60);
+  }
+  .f2{
+  	background-color: rgb(162,71,35);
+  }
+  .f3{
+  	background-color: rgb(252,126,60);
+  }
+  .f4{
+  	background-color: rgb(251,159,156);
+  }
+  .f5{
+  	background-color: rgb(253,234,56);
+  }
+  .f6{
+  	background-color: rgb(255,208,58);
+  }
+  .f7{
+  	background-color: rgb(144,226,18);
+  }
+  .f8{
+  	background-color: rgb(70,171,9);
+  }
+  .f9{
+  	background-color: rgb(3,178,212);
+  }
+  .f10{
+  	background-color: rgb(1,98,198);
+  }
+  .f11{
+  	background-color: rgb(144,91,186);
+  }
+  .f12{
+  	background-color: rgb(246,88,148);
+  }
+  .f13{
+  	background-color: rgb(255,255,255);
+  	border:1px solid gray;  	
+  }
+  .f14{
+  	background-color: rgb(124,124,124);
+  }
+  .f15{
+  	background-color: rgb(0,0,0);
+  }
+  .fouricon{
+  	height: 35px;
+    display: flex;
+    width: 170px;    
+    justify-content: center;
+    align-items: center; 
+  }
+  .fouricon>span{  	
+  	border-radius: 3px;
+  	padding-top: 10px;
+   }
+   .fi{
+      position:relative;
+    width: 38px;
+    height: 27px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -444px;
+    background-position-y: -522px;
+    background-size: 651px,81px;
+    background-repeat: no-repeat;
+  }
+  .item2{
+  	position: relative;
+    width: 35px;
+    height: 24px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -307px;
+    background-position-y: -486px;
+    background-size: 606px,81px;
+    background-repeat: no-repeat;
+  }
+  .item3{
+  	position: relative;
+    width: 36px;
+    height: 23px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -339px;
+    background-position-y: -483px;
+    background-size: 600px,81px;
+    background-repeat: no-repeat;
+
+  }
+  .item4{
+  	position: relative;
+    width: 34px;
+    height: 24px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -377px;
+    background-position-y: -483px;
+    background-size: 601px,81px;
+    background-repeat: no-repeat;
+  }
+  .endicon{
+  	display: flex;
+    justify-content: flex-end;
+  	width:240px;
+  	height:35px;
+  	padding:10px;
+  	position: relative;
+  }
+  .lineicon{
+    width: 29px;
+    height: 22px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -535px;
+    background-position-y: -420px;
+    background-size:737px,81px;
+    background-repeat: no-repeat;
+    
+  }
+  .endtext{     
+       padding-top: 2px;
+    font-size: 13px;
+    color: rgb(141,147,150);
+    margin-right: 7px;
+  }
+  	.header4{
+  	
+   width: 80%;
+    height: 40px;
+    color: rgb(141,147,150);
+    font-size: 13px;
+    background-color: rgb(243,245,246);
+    z-index: -3;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+  	}    
+    .sri{
+  		position: relative;
+   		width:213px;
+  		height:40px;
+      flex-grow: 1;
+  	}
+    .guna{
+   		width:213px;
+  		height:40px;
+      position: relative;
+  	}
+ .anyli{
+    position: absolute;
+    top: 11px;
+  }
+  .downarr{
+    position: absolute;
+    left: 67px;
+    top: 14px;
+    width: 15px;
+    height: 11px;    
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -847px;
+    background-position-y: -817px;
+    background-size: 871px,81px;
+    background-repeat: no-repeat;
+ }
+ .saftyarr{
+ 	   position: absolute;
+    top: 14px;
+    left: 192px;
+ }
+ .safty{
+ 	position: absolute;
+    left: 103px;
+    top: 10px;
+ }
+ .thicon{
+      position: relative;
+      width:213px;
+      height:40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+ }
+ .mari{
+  display: none;
+ }
+ .comp1{
+     width: 21px;
+    height: 21px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -292px;
+    background-position-y: -586px;
+    background-size: 638px,81px;
+    background-repeat: no-repeat;
+    margin-right:16px;
+ }
+ .comp2{
+     width: 20px;
+    height: 19px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -207px;
+    background-position-y: -521px;
+    background-size: 609px,81px;
+    background-repeat: no-repeat;
+ }
+ .comp3{
+    width: 21px;
+    height: 20px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -294px;
+    background-position-y: -530px;
+    background-size: 620px,81px;
+    background-repeat: no-repeat;
+ }.rel{
+ 	left:147px;
+ 	top:10px;
+ }.righttext{
+ 	left:57px;
+ }.relarr{
+ 	left:195px;
+ }.rightarr{
+ 	width: 27px;
+    height: 20px;    
+    position: absolute;
+    left:32px;
+    top: 10px;
+    background-image: url(/home/zoho/Desktop/images/icon1.png);
+    background-position-x: -487px;
+    background-position-y: -458px;
+    background-size: 549px,81px;
+    background-repeat: no-repeat;
+    }    
+    .lst{
+    	display: none;
+    	position: absolute;
+    	background-color:white;
+      	top:35px;
+		left: 5px;
+		width:150px;
+		height:220px;
+		color:black;
+		text-align: left;
+		z-index: 1;
+		border:1px solid gray;
+		border-radius: 2px;
+		padding: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+  .h1:hover{
+    color:gray;
+  }
+
+ 	    .h1:hover .lst  {
+    	 display: block;
+    	 cursor: pointer;
+       opacity: 1;
+    }
+    ul>li{
+    	list-style-type: none;
+    	line-height: 25px;
+    	opacity: 1;
+        
+        }
+    .up{
+    	position: absolute;
+    	top:-8px;
+    	left:10px;
+    	width:15px;
+    	height:15px;
+    	transform: rotate(45deg);
+    	background-color: white;
+    }
+    .list{
+    	height: 80px;
+    	    }
+    .icontext{
+    	display: none;
+    	position: absolute;
+    	top:32px;
+    	right:-100px;
+    	background-color:rgb(32,32,34);
+    	color:white;
+    	white-space: nowrap;
+    	height: 22px;
+    	z-index: 0;
+    	font-size: 15px;
+    	border:1px solid white;
+    	text-align: center;
+    	box-shadow: 0 4px 2px gray;
+    }
+    .lineicon:hover .icontext{
+    	display: inline-block;
+    	cursor: pointer;
+    }
+    #search{
+    	height: 30px;    	
+    	width: 325px;
+    	top: -7px;
+    	border:none;
+    }
+    .clotip{
+    	display: none;
+    position: absolute;
+    background-color: white;
+    top: 35px;
+    left: -1px;
+    height: 24px;
+    color: gray;
+    text-align:center;
+    z-index: 1;
+    padding: 5px;
+    white-space: nowrap;
+    font-size: 13px;
+   border:1px solid lightgray;    
+    }
+    .cloarr{
+    	position: absolute;
+    top: -6px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-top:1px solid lightgray;
+    border-left: 1px solid lightgray;
+
+    }
+    .f1:hover .clotip{
+         display: inline-block;
+         cursor: pointer;
+    }
+    .comptext{
+    	    display: none;
+		    position: absolute;
+		    top: 32px;
+		    left: 119px;
+		    background-color: rgb(32,32,34);
+		    color: white;
+		    white-space: nowrap;
+		    height: 28px;
+		    font-size: 15px;
+		    border: 1px solid white;
+		    text-align: center;
+		    box-shadow: 0 4px 2px grey;
+		    padding: 5px;
+    }.v1{
+      left:155px !important;
+    }
+    .v2{
+      left:193px !important;
+    }
+    .comp1:hover .comptext{
+    	display: inline-block;
+    	cursor: pointer;
+    }
+    .load{
+    	white-space: nowrap;
+    	background-color: gray;
+    	color:white;
+    	height:40px;      	  	
+    	width:200px;
+    	text-align: center;
+    	padding: 10px;
+    	border-radius: 3px;
+    	margin:auto;
+    }
+    .space{
+    	width:100%;
+    	height:300px;
+    	display: flex;
+    	background-color: rgb(243,245,246);
+    }
+    .footer{    	  	
+    	background-color: rgb(33,33,36);
+    	width:100%;
+    	height:100px;
+    
+      z-index:-1;
+      margin:0;
+    }
+    .bot1{
+      	background-color: rgb(33,33,36);
+    	width:100%;    	
+    	height: 50px;
+    	display: flex;
+    	justify-content: space-around;
+    	align-items: center;
+    	font-size: 14px;
+    	padding: 10px;
+    	position: relative;
+       	color: white;
+    	border-bottom: 1px solid gray;
+    }
+    .bot2{
+    	background-color: rgb(33,33,36);
+    	   margin:0;
+    	width:100%;
+    	justify-content: space-between;
+    	align-items: center;
+    	display: flex;
+    	font-size: 14px;
+    	color: white;
+    	padding-left:28px;    	
+   }
+    .b5{
+      position: absolute;
+      top: 8px;
+      left: 24px;
+      width: 26px;
+      height: 24px;
+       background-image: url(/home/zoho/Desktop/images/icon1.png);
+      background-position-x: -539px;
+      background-position-y: -230px;
+      background-size: 638px,81px;
+      background-repeat: no-repeat;
+    }
+    .b6{    	 
+    	background-position-y: -126px;    
+      position: absolute;
+      top: 8px;
+      left: 84px;
+      width: 26px;
+      height: 24px;
+      background-image: url(/home/zoho/Desktop/images/icon1.png);
+      background-position-x: -539px;
+      background-size: 638px,81px;
+      background-repeat: no-repeat;    
+    }
+    .b7{
+    	    position: absolute;
+          top: 8px;
+          left: 30px;
+          width: 26px;
+          height: 25px;
+          background-image: url(/home/zoho/Desktop/images/icon1.png);
+          background-position-x: -539px;
+          background-position-y: -253px;
+          left: 148px;
+          background-size: 638px,81px;
+          background-repeat: no-repeat;
+       }
+        .bot1>span:hover{
+       	opacity: 0.7;
+       	cursor: pointer;
+       }
+       .bot2>div>span{
+       	opacity: 0.5;
+       }
+       .bot2>div>span:hover{
+       	opacity: 1;
+       cursor: pointer;
+   }
+       	.dhi{
+       		display: none;
+		    position: absolute;
+		    background-color: white;
+		    top: 35px;
+		    right: -1px;
+		    height: 24px;
+		    color: gray;
+		    text-align:center;
+		    z-index: 1;
+		    padding: 5px;
+		    white-space: nowrap;
+		    font-size: 13px;
+		   border:1px solid lightgray;
+       	}
+       	.fi:hover .dhi{
+       		display: inline-block;
+       	}.vya{
+       		right:11px;
+       		position: absolute;
+		    top: -6px;
+		     width: 12px;
+		    height: 12px;
+		    transform: rotate(45deg);
+		    background-color: white;
+		    border-top:1px solid lightgray;
+		    border-left: 1px solid lightgray;
+       	}.aa1{       		
+		    position: absolute;
+		    right: 35px;
+		    height: 8px;
+		    width: 16px;
+		    background-image: url(/home/zoho/Desktop/images/icon1.png);
+		    background-position-x: -590px;
+		    background-position-y: -96px;
+		    background-size: 629px,81px;
+		    background-repeat: no-repeat;
+       	}
+       	.sel{
+       		position: absolute;
+		    top: 46px;
+		    left: -26px;
+		    width: 200px;
+		    height: 600px;
+		    background-color: rgb(32,32,34);
+		    font-size: 15px;		    
+		    display: none; 
+        z-index: 1; 
+
+       	}
+        .sel>pre{
+       		padding-top: 0px;
+       		margin-top:0px;
+       		line-height:9px;
+       		text-align: left;
+       		margin-left:0px;         
+       	}
+        .sel>pre>p{
+       		margin-left: 50px;
+       	}
+        .sel>pre>p:hover:not(.ram){
+       		text-decoration: underline;
+       		cursor:pointer;
+       	}
+        .ram{
+       		font-size: 10px;
+       		color:gray;
+       		word-spacing: 5px;
+       		
+       	}.ram>a:hover{
+       		text-decoration: underline !important;       	
+       	}
+        .ka{
+       		width: 363px;
+          text-align: center;
+          height: 73px;
+          padding-top: 16px;          		
+       	}
+        .ven{       		
+       		display:flex;
+       		width:200px;
+       		height:40px;
+       		padding-top: 10px;
+       		justify-content: space-around;
+        }
+       	.mani{
+       		position: relative;
+       		width:200px;
+       		height: 40px;      			
+       	      	
+       	}
+        .help1{
+       		display: none
+       	}
+
+
+
+
